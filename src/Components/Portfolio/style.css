@@ -1,0 +1,74 @@
+.mainDiv {
+  color: white;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.evenDiv {
+  background-color: #1f1f1f;
+}
+
+.oddDiv {
+  background-color: #1b1a1a;
+}
+
+.dash {
+  height: 3px;
+  width: 30px;
+  background-color: rebeccapurple;
+}
+.portfolioTitle {
+  background-color: white;
+  color: rgba(0, 0, 0, 1);
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.portfolioTitle,
+.portfolioSubtitle,
+.description {
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.description {
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.sliderClass {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.portfolioImg {
+  width: 30% !important;
+  height: 100%;
+}
+
+.slick-dots li.slick-active button:before {
+  color: rebeccapurple !important;
+}
+
+.portfolioButton {
+  text-decoration: none;
+  width: fit-content;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.portfolioButton:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 1170px) {
+  .portfolioTitle {
+    font-size: 22px !important;
+  }
+  .portfolioSubtitle {
+    font-size: 13px !important;
+  }
+  .description {
+    font-size: 15px;
+  }
+}

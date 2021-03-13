@@ -1,0 +1,75 @@
+#resume {
+  background-color: white;
+}
+
+.main-badge {
+  font-size: 18px !important;
+  text-align: left !important;
+  padding: 5px 8px 5px 8px !important;
+  vertical-align: baseline;
+  background-color: rgba(248, 245, 244, 0.05) !important;
+  color: white;
+  font-weight: lighter !important;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.experience-badge {
+  font-size: 14px !important;
+  text-align: left !important;
+  padding: 5px 8px 5px 8px !important;
+  vertical-align: baseline;
+  background-color: rgba(248, 245, 244, 0.05) !important;
+  color: white;
+  font-weight: lighter !important;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.experience-icon {
+  font-size: 300%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.vertical-timeline-element-content {
+  background-color: #1f1f1f;
+}
+
+.vertical-timeline-element-icon {
+  background: #1f1f1f !important;
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 17px;
+  margin-left: 11px;
+}
+.vertical-timeline-element-title,
+.vertical-timeline-element-subtitle {
+  color: white;
+}
+
+.vertical-timeline-element-title {
+  background-color: white;
+  color: rgba(0, 0, 0, 1);
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.vertical-timeline:before {
+  background: #1f1f1f;
+}
+.vertical-timeline-element-content-arrow {
+  border-right-color: black;
+}
+
+@media only screen and (max-width: 1170px) {
+  .experience-icon {
+    font-size: 170%;
+    margin-top: 18%;
+    text-align: center;
+  }
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    color: white;
+  }
+}
