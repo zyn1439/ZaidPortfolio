@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 import "./style.css";
 import "../../MiniComponents/home_left/style.css";
 import { NotificationManager } from "react-notifications";
-import { Button, Input, Form, Segment } from "semantic-ui-react";
+import { Button, Form, Segment } from "semantic-ui-react";
 
 export default function contactme() {
   function sendEmail(e) {

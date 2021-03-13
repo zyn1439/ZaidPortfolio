@@ -58,7 +58,7 @@ export default function portfolio() {
         <div className="row h-100 pt-5 pb-5">
           <div
             className={`col-sm-6 d-flex flex-column justify-content-center ${
-              index % 2 == 0 ? "order-md-1" : "order-md-2"
+              index % 2 === 0 ? "order-md-1" : "order-md-2"
             }`}
           >
             <h1 className="portfolioTitle">{data.title}</h1>
@@ -71,6 +71,7 @@ export default function portfolio() {
               <a
                 href={data.link}
                 target="_blank"
+                rel="noreferrer"
                 className="home-left-aboutmme-btn btn btn-outline-light portfolioButton"
               >
                 View Project
@@ -79,7 +80,7 @@ export default function portfolio() {
           </div>
           <div
             className={`col-sm-6 ${
-              index % 2 == 0 ? "order-md-2" : "order-md-1"
+              index % 2 === 0 ? "order-md-2" : "order-md-1"
             }`}
           >
             {" "}

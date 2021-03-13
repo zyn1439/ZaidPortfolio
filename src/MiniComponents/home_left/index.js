@@ -2,7 +2,6 @@ import React from "react";
 import "../home_left/style.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import ReactTypingEffect from "react-typing-effect";
-import { Link } from "react-router-dom";
 
 function Home_Left() {
   return (

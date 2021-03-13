@@ -1,7 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Home from "./Components/Home/home";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Skills from "./Components/Skills/Skills";
 import Experience from "./Components/Experience/experience";
 import Portfolio from "./Components/Portfolio/portfolio";
