@@ -20,12 +20,13 @@
     "react-particles-js": "^3.4.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
-    "react-slick": "^0.28.0",
+    "react-slick": "^0.28.1",
     "react-smooth": "^1.0.6",
     "react-typing-effect": "^2.0.4",
     "react-vertical-timeline-component": "^3.3.3",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.3",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
