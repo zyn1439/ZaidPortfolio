@@ -66,7 +66,7 @@ export default function contactme() {
             name="message"
           />
           <Button className="contactBtn" type="submit">
-            Submittt
+            Submit
           </Button>
         </Form>
       </Segment>
