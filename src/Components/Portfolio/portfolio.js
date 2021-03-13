@@ -53,7 +53,9 @@ export default function portfolio() {
   const portfolio = data.map((data, index) => {
     return (
       <div
-        className={`container mainDiv ${index % 2 == 0 ? "evenDiv" : "oddDiv"}`}
+        className={`container mainDiv ${
+          index % 2 === 0 ? "evenDiv" : "oddDiv"
+        }`}
       >
         <div className="row h-100 pt-5 pb-5">
           <div
@@ -88,7 +90,7 @@ export default function portfolio() {
               {data.img.map((temp) => {
                 return (
                   <div className="w-100 d-flex justify-content-center">
-                    <img className="portfolioImg" src={TTT} />
+                    <img className="portfolioImg" src={TTT} alt="" />
                   </div>
                 );
               })}
