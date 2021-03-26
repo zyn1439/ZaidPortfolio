@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TTT from "../../assets/img/unnamed.webp";
+import GTT from "../../assets/img/IMG-20210322-WA0006.jpg";
 
 export default function portfolio() {
   var settings = {
@@ -19,7 +20,7 @@ export default function portfolio() {
       subtitle: "Ride Sharing App",
       description:
         "Vorides is Cameroon’s safest and most affordable intercity and Intra-city ride-sharing platform. Vorides is available throughout the country, all you need is the internet, a smartphone, and be ready to travel!",
-      img: [TTT, TTT, TTT],
+      img: [GTT, TTT, TTT],
       link:
         "https://play.google.com/store/apps/details?id=com.app.vorides&hl=en&gl=US",
     },
