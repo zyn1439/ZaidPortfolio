@@ -20,7 +20,7 @@ export default function portfolio() {
       subtitle: "Ride Sharing App",
       description:
         "Vorides is Cameroon’s safest and most affordable intercity and Intra-city ride-sharing platform. Vorides is available throughout the country, all you need is the internet, a smartphone, and be ready to travel!",
-      img: [GTT, TTT, TTT],
+      img: [GTT, GTT, GTT],
       link:
         "https://play.google.com/store/apps/details?id=com.app.vorides&hl=en&gl=US",
     },
