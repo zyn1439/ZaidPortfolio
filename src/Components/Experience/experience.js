@@ -9,7 +9,7 @@ import "./style.css";
 
 const data = [
   {
-    company: "Fiver",
+    company: "Fiverr",
     title: "Mobile Developer",
     years: "04.2016 - Present",
     mainTech: ["Android / IOS Native & Flutter"],
